@@ -1,4 +1,4 @@
-# FoodTracker
+# Cooks-Match
 
 A receipt-to-recipe generator that uses OCR to extract ingredients from grocery receipts and generates personalized recipes using AI.
 
@@ -18,7 +18,7 @@ Before running, please make sure to download the [MongoDB Community Server](http
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/narcistiq/FoodTracker.git
-cd FoodTracker
+cd Cooks-Match
 ```
 
 ### 2. Backend Setup
@@ -34,17 +34,10 @@ pip3 install -r requirements.txt
 ```
 
 #### Environment Configuration
-Create `.env` files with your Gemini API key:
+Create `.env` file with your Gemini API key at project root:
 
 **Backend configuration:**
 ```bash
-# In receipt-recipes/.env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-**OCR configuration:**
-```bash
-# In ocr-reader/.env
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
