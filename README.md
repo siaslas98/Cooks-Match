@@ -1,6 +1,6 @@
 # Cooks-Match
 
-A receipt-to-recipe generator that uses OCR to extract ingredients from grocery receipts and generates personalized recipes using AI.
+A receipt-to-recipe generator that uses Python's EasyOCR library to extract ingredients from grocery receipts and generates personalized recipes using Google Gemini.
 
 ## 📋 Prerequisites
 
@@ -26,6 +26,14 @@ cd Cooks-Match
 #### Navigate to Backend Directory
 ```bash
 cd receipt-recipes/backend
+```
+
+#### Create a Python virtual environment and activate
+```bash
+python3 -m venv venv
+
+source venv/bin/activate (Mac/Linux)
+venv\Scripts\Activate.ps1(Windows)
 ```
 
 #### Install Python Dependencies
